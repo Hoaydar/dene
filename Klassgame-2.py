@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types
 import asyncio
 import time
 
-url = "https://www.klasgame.com/mmorpg-oyunlar/knight-unity/knight-unity-goldbar"
+url = "https://www.klasgame.com/mmorpg-oyunlar/nowa-online-world/nowa-online-world-gold"
 my_token = '6463031187:AAGAVe5K6yWqH9vTSz5sGLGL2LKWmEodzjw'
 my_chat_id = -1002209424495
 
@@ -27,7 +27,7 @@ async def main():
         # Loop through the buttons to find the correct one
         for button in buttons:
             href = button.get_attribute('href')
-            if href == 'https://www.klasgame.com/satis-yap/mmorpg-oyunlar/knight-unity/knight-unity-goldbar/knight-unity-ares-gold-10gb':
+            if href == 'https://www.klasgame.com/satis-yap/mmorpg-oyunlar/nowa-online-world/nowa-online-world-gold/nowa-online-world-10-gb':
                 correct_button = button
                 break  # Exit the loop once the correct button is found
 
